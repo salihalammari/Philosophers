@@ -79,7 +79,7 @@ $ ./rt 'file_name' --save
 - Stereoscopy
 - blur
 - cartoon
-# ![refraction](imgs/sepia.bmp)
+# ![refraction](https://lejournal.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/gettyimages-601799043_72dpi.jpg)
 <img src="imgs/aba.png" height="800" width="800">
 # ![refraction](imgs/blur.bmp)
 
