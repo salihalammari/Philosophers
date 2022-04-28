@@ -6,7 +6,7 @@
 /*   By: slammari <slammari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 16:04:59 by slammari          #+#    #+#             */
-/*   Updated: 2022/04/27 01:01:42 by slammari         ###   ########.fr       */
+/*   Updated: 2022/04/27 20:36:08 by slammari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,7 @@ void	print_philo(t_philo *philo, t_arg *arg, char *msg)
 	pthread_mutex_lock(&arg->print_mutex);
 	printf("%lld\t", get_time() - philo->arg->start_time);
 	printf("%d\t", philo->id + 1);
-	printf("%s\t", msg);
-	printf("(%d)\n", philo->eat_cnt);
+	printf("%s\t\n", msg);
 	pthread_mutex_unlock(&arg->print_mutex);
 }
 
